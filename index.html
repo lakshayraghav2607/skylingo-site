@@ -192,6 +192,22 @@ h2{font-size:clamp(30px,4vw,45px)}
   .about-media .plate b{font-size:25px}
 }
 
+/* ---------- trainer ---------- */
+.trainer-head{max-width:760px;margin:0 auto 44px;text-align:center}
+.trainer-head h2{margin-top:4px}
+.trainer-role{margin-top:16px;color:var(--muted);font-size:15px;font-weight:700}
+.trainer-layout{display:grid;grid-template-columns:1.25fr .85fr;gap:28px;align-items:stretch}
+.trainer-bio{display:grid;gap:17px;color:var(--muted);font-size:16px}
+.trainer-vision{background:var(--deep);color:#b6c3da;border-radius:var(--r-lg);padding:34px;box-shadow:var(--shadow-lg)}
+.trainer-vision h3{color:#fff;font-size:27px;margin-bottom:18px}
+.trainer-vision p+p{margin-top:16px}
+.trainer-closing{grid-column:1/-1;text-align:center;color:var(--gold-d);font-family:'Fraunces',Georgia,serif;font-size:clamp(23px,3vw,32px);font-style:italic;line-height:1.3;padding:10px 12px 0}
+@media(max-width:760px){
+  .trainer-head{margin-bottom:34px}
+  .trainer-layout{grid-template-columns:1fr;gap:22px}
+  .trainer-vision{padding:28px}
+}
+
 /* ---------- why cards ---------- */
 .grid4{display:grid;grid-template-columns:repeat(4,1fr);gap:20px}
 .icard{background:var(--paper);border:1px solid var(--line);border-radius:var(--r);padding:30px 26px;box-shadow:var(--shadow);transition:transform .22s,box-shadow .22s,border-color .22s;position:relative;overflow:hidden}
@@ -436,6 +452,30 @@ a:focus-visible,button:focus-visible,input:focus-visible,select:focus-visible{ou
         <b>80+</b>
         <span>Five-star Google reviews from our students</span>
       </div>
+    </div>
+  </div>
+</section>
+
+<section class="sec paper" id="trainer">
+  <div class="wrap">
+    <div class="trainer-head rv">
+      <span class="eyebrow">Your trainer</span>
+      <h2>Meet Your Trainer &ndash; Aakash Sharma</h2>
+      <p class="trainer-role">Aakash Sharma | English Language Trainer | Communication &amp; Personality Development Coach</p>
+    </div>
+    <div class="trainer-layout">
+      <div class="trainer-bio rv">
+        <p>With over 7 years of experience in English language training and communication development, I have dedicated my professional journey to helping individuals overcome hesitation, discover their confidence, and become effective communicators.</p>
+        <p>I am a USA-certified International English Language Trainer and a 120-hour TEFL-certified professional. My expertise includes Spoken English, Business Communication, Public Speaking, Personality Development, Interview Preparation, and Professional Communication.</p>
+        <p>Throughout my journey, I have worked with students, aspiring professionals, and working individuals, helping them improve not just their English but also the way they express themselves, interact with others, and present their personalities.</p>
+        <p>My teaching philosophy goes beyond textbooks and grammar rules. I believe in practical learning, real-life conversations, interactive activities, and confidence-building experiences that prepare learners for the real world.</p>
+      </div>
+      <aside class="trainer-vision rv">
+        <h3>My Vision</h3>
+        <p>I envision a world where language is never a barrier to someone's dreams, opportunities, or potential.</p>
+        <p>Through Skylingoo, I aim to create confident individuals who don't just speak English but communicate with clarity, express their thoughts fearlessly, and leave a lasting impression wherever they go.</p>
+      </aside>
+      <p class="trainer-closing rv">Because confidence isn't something you're born with. It's something you build.</p>
     </div>
   </div>
 </section>
